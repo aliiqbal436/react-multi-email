@@ -152,7 +152,7 @@ export function ReactMultiEmail(props: IReactMultiEmailProps) {
         onChange?.([...emails, ...validEmails]);
       }
 
-      if (inputValue !== inputValue) {
+      if (inputValue) {
         onChangeInput?.(inputValue);
       }
     },
